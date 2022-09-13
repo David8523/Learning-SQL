@@ -5,6 +5,7 @@ This repository contains different homeworks and exercises done on different web
  
 1. [W3schools](#1-w3schools)
 2. [SQLzoo](#2-sqlzoo)
+3. [SQLBolt](#3-sqlbolt)
 
 ## 1. W3schools
 [Web Link](https://www.w3schools.com/sql/default.asp)
@@ -42,3 +43,27 @@ Exercise Name   | nº of Problems |
 | [7. MORE Join](https://github.com/David8523/Learning-SQL/blob/main/SQLzoo/7.%20MORE%20Join.sql) | 15 |
 | [8. Using NULL](https://github.com/David8523/Learning-SQL/blob/main/SQLzoo/8.%20Using%20NULL.sql) | 10 |
 | [9. Self JOIN](https://github.com/David8523/Learning-SQL/blob/main/SQLzoo/9.%20Self%20JOIN.sql) | 10 |
+
+## 3. SQLBolt
+[Web Link](https://sqlbolt.com/)
+
+Exercise Name   | nº of Problems |
+| :-------:   | :----:    |
+| [1. SELECT queries 10](https://github.com/David8523/Learning-SQL/blob/main/SQLBolt/1.%20SELECT%20queries%20101.sql) | 5 |
+| [2. Queries with constraints (Pt.1)](https://github.com/David8523/Learning-SQL/blob/main/SQLBolt/2.%20Queries%20with%20constraints%20(Pt.1).sql) | 4 |
+| [3. Queries with constraints (Pt.2)](https://github.com/David8523/Learning-SQL/blob/main/SQLBolt/3.%20Queries%20with%20constraints%20(Pt.2).sql) | 4 |
+| [4. Filtering and sorting query results](https://github.com/David8523/Learning-SQL/blob/main/SQLBolt/4.%20Filtering%20and%20sorting%20query%20results.sql) | 4 |
+| [5. SQL Review Simple SELECT queries](https://github.com/David8523/Learning-SQL/blob/main/SQLBolt/5.%20SQL%20Review%20Simple%20SELECT%20queries.sql) | 4 |
+| [6. Multi-table queries with JOINs](https://github.com/David8523/Learning-SQL/blob/main/SQLBolt/6.%20Multi-table%20queries%20with%20JOINs.sql) | 3 |
+| [7. OUTER JOINs](https://github.com/David8523/Learning-SQL/blob/main/SQLBolt/7.%20OUTER%20JOINs.sql) | 3 |
+| [8. A short note on NULLs](https://github.com/David8523/Learning-SQL/blob/main/SQLBolt/8.%20A%20short%20note%20on%20NULLs.sql) | 2 |
+| [9. Queries with expressions](https://github.com/David8523/Learning-SQL/blob/main/SQLBolt/9.%20Queries%20with%20expressions.sql) | 3 |
+| [10. Queries with aggregates (Pt.1)](https://github.com/David8523/Learning-SQL/blob/main/SQLBolt/10.%20Queries%20with%20aggregates%20(Pt.1).sql) | 3 |
+| [11. Queries with aggregates (Pt.2)](https://github.com/David8523/Learning-SQL/blob/main/SQLBolt/11.%20Queries%20with%20aggregates%20(Pt.2).sql) | 3 |
+| [12. Order of execution of a query](https://github.com/David8523/Learning-SQL/blob/main/SQLBolt/12.%20Order%20of%20execution%20of%20a%20query.sql) | 2 |
+| [13. Inserting rows](https://github.com/David8523/Learning-SQL/blob/main/SQLBolt/13.%20Inserting%20rows.sql) | 2 |
+| [14. Updating rows](https://github.com/David8523/Learning-SQL/blob/main/SQLBolt/14.%20Updating%20rows.sql) | 3 |
+| [15. Deleting rows](https://github.com/David8523/Learning-SQL/blob/main/SQLBolt/15.%20Deleting%20rows.sql) | 2 |
+| [16. Creating tables](https://github.com/David8523/Learning-SQL/blob/main/SQLBolt/16.%20Creating%20tables.sql) | 1 |
+| [17. Altering tables](https://github.com/David8523/Learning-SQL/blob/main/SQLBolt/17.%20Altering%20tables.sql) | 2 |
+| [18. Dropping tables](https://github.com/David8523/Learning-SQL/blob/main/SQLBolt/18.%20Dropping%20tables.sql) | 2 |
