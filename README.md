@@ -6,6 +6,7 @@ This repository contains different homeworks and exercises done on different web
 1. [W3schools](#1-w3schools)
 2. [SQLzoo](#2-sqlzoo)
 3. [SQLBolt](#3-sqlbolt)
+4. [The SQL Murder Mystery](#4-the-sql-murder-mystery)
 
 ## 1. W3schools
 [Web Link](https://www.w3schools.com/sql/default.asp)
@@ -67,3 +68,9 @@ Exercise Name   | nº of Problems |
 | [16. Creating tables](https://github.com/David8523/Learning-SQL/blob/main/SQLBolt/16.%20Creating%20tables.sql) | 1 |
 | [17. Altering tables](https://github.com/David8523/Learning-SQL/blob/main/SQLBolt/17.%20Altering%20tables.sql) | 2 |
 | [18. Dropping tables](https://github.com/David8523/Learning-SQL/blob/main/SQLBolt/18.%20Dropping%20tables.sql) | 2 |
+
+## 4. The SQL Murder Mystery
+[Web Link](https://mystery.knightlab.com/)
+
+This is a video game where you use SQL queries to find out who was the culprit of the murder. [Link]() to see my walkthrough and how I solved this mystery.
+
