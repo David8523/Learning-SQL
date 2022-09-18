@@ -72,5 +72,5 @@ Exercise Name   | nº of Problems |
 ## 4. The SQL Murder Mystery
 [Web Link](https://mystery.knightlab.com/)
 
-This is a video game where you use SQL queries to find out who was the culprit of the murder. [Link](https://github.com/David8523/Learning-SQL/blob/main/The%20SQL%20Murder%20Mystery/introduction%20(1).md) to see my walkthrough and how I solved this mystery.
+This is a video game where you use SQL queries to find out who was the culprit of the murder. [Link](https://github.com/David8523/Learning-SQL/blob/main/The%20SQL%20Murder%20Mystery/walkthrough) to see my walkthrough and how I solved this mystery.
 
