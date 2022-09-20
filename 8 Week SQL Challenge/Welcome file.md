@@ -153,76 +153,9 @@ WHERE s.order_date < mem.join_date
 GROUP BY s.customer_id
 ORDER BY customer_id
 ~~~~
-**Schema (PostgreSQL v13)**
-
-    CREATE SCHEMA dannys_diner;
-    SET search_path = dannys_diner;
-    
-    CREATE TABLE sales (
-      "customer_id" VARCHAR(1),
-      "order_date" DATE,
-      "product_id" INTEGER
-    );
-    
-    INSERT INTO sales
-      ("customer_id", "order_date", "product_id")
-    VALUES
-      ('A', '2021-01-01', '1'),
-      ('A', '2021-01-01', '2'),
-      ('A', '2021-01-07', '2'),
-      ('A', '2021-01-10', '3'),
-      ('A', '2021-01-11', '3'),
-      ('A', '2021-01-11', '3'),
-      ('B', '2021-01-01', '2'),
-      ('B', '2021-01-02', '2'),
-      ('B', '2021-01-04', '1'),
-      ('B', '2021-01-11', '1'),
-      ('B', '2021-01-16', '3'),
-      ('B', '2021-02-01', '3'),
-      ('C', '2021-01-01', '3'),
-      ('C', '2021-01-01', '3'),
-      ('C', '2021-01-07', '3');
-     
-    
-    CREATE TABLE menu (
-      "product_id" INTEGER,
-      "product_name" VARCHAR(5),
-      "price" INTEGER
-    );
-    
-    INSERT INTO menu
-      ("product_id", "product_name", "price")
-    VALUES
-      ('1', 'sushi', '10'),
-      ('2', 'curry', '15'),
-      ('3', 'ramen', '12');
-      
-    
-    CREATE TABLE members (
-      "customer_id" VARCHAR(1),
-      "join_date" DATE
-    );
-    
-    INSERT INTO members
-      ("customer_id", "join_date")
-    VALUES
-      ('A', '2021-01-07'),
-      ('B', '2021-01-09');
-
----
-
-**Query #1**
-
-    SELECT s.customer_id, count(s.product_id) AS "Total Items", SUM(price) AS "Amount Spent"
-    FROM dannys_diner.sales s
-    JOIN dannys_diner.menu m ON m.product_id = s.product_id
-    JOIN dannys_diner.members mem ON mem.customer_id = s.customer_id
-    WHERE s.order_date < mem.join_date
-    GROUP BY s.customer_id
-    ORDER BY customer_id;
-
+ 
 | customer_id | Total Items | Amount Spent |
-| ----------- | ----------- | ------------ |
+| :-------: | :-------: | :-------: |
 | A           | 2           | 25           |
 | B           | 3           | 40           |
 
@@ -248,83 +181,10 @@ JOIN CTE ON CTE.product_id = s.product_id
 GROUP BY s.customer_id
 ORDER BY s.customer_id
 ~~~~
-**Schema (PostgreSQL v13)**
 
-    CREATE SCHEMA dannys_diner;
-    SET search_path = dannys_diner;
-    
-    CREATE TABLE sales (
-      "customer_id" VARCHAR(1),
-      "order_date" DATE,
-      "product_id" INTEGER
-    );
-    
-    INSERT INTO sales
-      ("customer_id", "order_date", "product_id")
-    VALUES
-      ('A', '2021-01-01', '1'),
-      ('A', '2021-01-01', '2'),
-      ('A', '2021-01-07', '2'),
-      ('A', '2021-01-10', '3'),
-      ('A', '2021-01-11', '3'),
-      ('A', '2021-01-11', '3'),
-      ('B', '2021-01-01', '2'),
-      ('B', '2021-01-02', '2'),
-      ('B', '2021-01-04', '1'),
-      ('B', '2021-01-11', '1'),
-      ('B', '2021-01-16', '3'),
-      ('B', '2021-02-01', '3'),
-      ('C', '2021-01-01', '3'),
-      ('C', '2021-01-01', '3'),
-      ('C', '2021-01-07', '3');
-     
-    
-    CREATE TABLE menu (
-      "product_id" INTEGER,
-      "product_name" VARCHAR(5),
-      "price" INTEGER
-    );
-    
-    INSERT INTO menu
-      ("product_id", "product_name", "price")
-    VALUES
-      ('1', 'sushi', '10'),
-      ('2', 'curry', '15'),
-      ('3', 'ramen', '12');
-      
-    
-    CREATE TABLE members (
-      "customer_id" VARCHAR(1),
-      "join_date" DATE
-    );
-    
-    INSERT INTO members
-      ("customer_id", "join_date")
-    VALUES
-      ('A', '2021-01-07'),
-      ('B', '2021-01-09');
-
----
-
-**Query #1**
-
-    WITH CTE AS 
-    (
-    SELECT *,
-      	CASE 
-        WHEN m.product_name = 'sushi' THEN price * 20
-        WHEN m.product_name != 'sushi' THEN price * 10
-        END AS points
-    FROM dannys_diner.menu m
-        )
-    SELECT customer_id, SUM(points) AS points
-    FROM dannys_diner.sales s
-    JOIN CTE ON CTE.product_id = s.product_id
-    GROUP BY s.customer_id
-    ORDER BY s.customer_id;
 
 | customer_id | points |
-| ----------- | ------ |
+| :-------: | :-------: |
 | A           | 860    |
 | B           | 940    |
 | C           | 360    |
