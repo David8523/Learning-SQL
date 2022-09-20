@@ -7,7 +7,7 @@ This repository contains different homeworks and exercises done on different web
 2. [SQLzoo](#2-sqlzoo)
 3. [SQLBolt](#3-sqlbolt)
 4. [The SQL Murder Mystery](#4-the-sql-murder-mystery)
-5. [8 Week SQL Challenge](8-week-sql-challenge)
+5. [8 Week SQL Challenge](#5-8-week-sql-challenge)
 
 ## 1. W3schools
 [Web Link](https://www.w3schools.com/sql/default.asp)
