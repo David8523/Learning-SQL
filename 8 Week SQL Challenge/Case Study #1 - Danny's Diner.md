@@ -1,4 +1,9 @@
-﻿# Case Study #1 - Danny's Diner
+
+<p align="center">
+  <img src="https://github.com/David8523/Learning-SQL/blob/main/8%20Week%20SQL%20Challenge/Images/case%201.png?raw=true" /
+</p>
+
+# Case Study #1 - Danny's Diner
 ## 1. Introduction
 Danny seriously loves Japanese food so in the beginning of 2021, he decides to embark upon a risky venture and opens up a cute little restaurant that sells his 3 favourite foods: sushi, curry and ramen.
 
@@ -9,6 +14,10 @@ Danny wants to use the data to answer a few simple questions about his customers
 He plans on using these insights to help him decide whether he should expand the existing customer loyalty program - additionally he needs help to generate some basic datasets so his team can easily inspect the data without needing to use SQL.
 
 Danny has provided you with a sample of his overall customer data due to privacy issues - but he hopes that these examples are enough for you to write fully functioning SQL queries to help him answer his questions!
+<p align="center">
+  <img src="https://github.com/David8523/Learning-SQL/blob/main/8%20Week%20SQL%20Challenge/Images/1.PNG?raw=true" /
+</p>
+ 
 ## 3. Case Study Questions
 ### 1.  What is the total amount each customer spent at the restaurant?
  ~~~~sql
