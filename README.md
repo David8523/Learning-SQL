@@ -7,6 +7,7 @@ This repository contains different homeworks and exercises done on different web
 2. [SQLzoo](#2-sqlzoo)
 3. [SQLBolt](#3-sqlbolt)
 4. [The SQL Murder Mystery](#4-the-sql-murder-mystery)
+5. [8 Week SQL Challenge](8-week-sql-challenge)
 
 ## 1. W3schools
 [Web Link](https://www.w3schools.com/sql/default.asp)
@@ -74,3 +75,4 @@ Exercise Name   | nº of Problems |
 
 This is a video game where you use SQL queries to find out who was the culprit of the murder. [Click Here](https://github.com/David8523/Learning-SQL/blob/main/The%20SQL%20Murder%20Mystery/walkthrough.md) to see my walkthrough and how I solved this mystery.
 
+## 5. 8 Week SQL Challenge
