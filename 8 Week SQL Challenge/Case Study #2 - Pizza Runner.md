@@ -1,4 +1,8 @@
-﻿# Case Study #2 - Pizza Runner
+# Case Study #2 - Pizza Runner
+<p align="center">
+  <img src="https://github.com/David8523/Learning-SQL/blob/main/8%20Week%20SQL%20Challenge/Images/Case%202.png" /
+</p>
+	
 ## 1. Introduction
 
 Did you know that over  **115 million kilograms**  of pizza is consumed daily worldwide??? (Well according to Wikipedia anyway…)
@@ -16,6 +20,11 @@ Because Danny had a few years of experience as a data scientist - he was very aw
 He has prepared for us an entity relationship diagram of his database design but requires further assistance to clean his data and apply some basic calculations so he can better direct his runners and optimise Pizza Runner’s operations.
 
 All datasets exist within the  `pizza_runner`  database schema - be sure to include this reference within your SQL scripts as you start exploring the data and answering the case study questions.
+	
+<p align="center">
+  <img src="https://github.com/David8523/Learning-SQL/blob/main/8%20Week%20SQL%20Challenge/Images/1.PNG" /
+</p>
+	
 ## 3. Data Cleaning
 ### customer_orders
 Clean the null values in the `exclusions`and `extras`columns in the table
