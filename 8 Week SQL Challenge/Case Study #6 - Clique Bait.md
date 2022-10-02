@@ -1,4 +1,8 @@
 ﻿# Case Study #6 - Clique Bait
+ <p align="center">
+  <img src="https://github.com/David8523/Learning-SQL/blob/main/8%20Week%20SQL%20Challenge/Images/Case%206.png" /
+</p>
+	
 ## Introduction
 
 Clique Bait is not like your regular online seafood store - the founder and CEO Danny, was also a part of a digital data analytics team and wanted to expand his knowledge into the seafood industry!
@@ -7,6 +11,9 @@ In this case study - you are required to support Danny’s vision and analyse hi
 ### Enterprise Relationship Diagram
 
 Using the following DDL schema details to create an ERD for all the Clique Bait datasets.
+  <p align="center">
+  <img src="https://github.com/David8523/Learning-SQL/blob/main/8%20Week%20SQL%20Challenge/Images/6.png" /
+</p>
 
 ### Digital Analysis
 
