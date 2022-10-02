@@ -1,4 +1,8 @@
 ﻿# Case Study #4 - Data Bank
+<p align="center">
+  <img src="https://github.com/David8523/Learning-SQL/blob/main/8%20Week%20SQL%20Challenge/Images/Case%204.png" /
+</p>
+	
 ## Introduction
 
 There is a new innovation in the financial industry called Neo-Banks: new aged digital only banks without physical branches.
@@ -19,6 +23,9 @@ The Data Bank team have prepared a data model for this case study as well as a f
 ## Case Study Questions
 
 The following case study questions include some general data exploration analysis for the nodes and transactions before diving right into the core business questions and finishes with a challenging final request!
+<p align="center">
+  <img src="https://github.com/David8523/Learning-SQL/blob/main/8%20Week%20SQL%20Challenge/Images/4.PNG" /
+</p>
 
 ### A. Customer Nodes Exploration
 
