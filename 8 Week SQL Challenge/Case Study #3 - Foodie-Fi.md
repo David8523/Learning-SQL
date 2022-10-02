@@ -1,4 +1,8 @@
 ﻿# Case Study #3 - Foodie-Fi
+ <p align="center">
+  <img src="https://github.com/David8523/Learning-SQL/blob/main/8%20Week%20SQL%20Challenge/Images/Case%203.png" /
+</p>
+	
 ## Introduction
 
 Subscription based businesses are super popular and Danny realised that there was a large gap in the market - he wanted to create a new streaming service that only had food related content - something like Netflix but with only cooking shows!
@@ -11,6 +15,9 @@ Danny created Foodie-Fi with a data driven mindset and wanted to ensure all futu
 Danny has shared the data design for Foodie-Fi and also short descriptions on each of the database tables - our case study focuses on only 2 tables but there will be a challenge to create a new table for the Foodie-Fi team.
 
 All datasets exist within the  `foodie_fi`  database schema - be sure to include this reference within your SQL scripts as you start exploring the data and answering the case study questions.
+ <p align="center">
+  <img src="https://github.com/David8523/Learning-SQL/blob/main/8%20Week%20SQL%20Challenge/Images/3.PNG" /
+</p>
 
 **Important note:** From now on I will use MySQL to solve the practical cases. 
 ## Case Study
