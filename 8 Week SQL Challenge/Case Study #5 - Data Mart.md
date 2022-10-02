@@ -1,4 +1,8 @@
 ﻿# Case Study #5 - Data Mart
+<p align="center">
+  <img src="https://github.com/David8523/Learning-SQL/blob/main/8%20Week%20SQL%20Challenge/Images/Case%205.png" /
+</p>
+	
 ## Introduction
 
 Data Mart is Danny’s latest venture and after running international operations for his online supermarket that specialises in fresh produce - Danny is asking for your support to analyse his sales performance.
@@ -21,6 +25,10 @@ The  `Entity Relationship Diagram`  is shown below with the data types made clea
 ## Case Study Questions
 
 The following case study questions require some data cleaning steps before we start to unpack Danny’s key business questions in more depth.
+<p align="center">
+  <img src="https://github.com/David8523/Learning-SQL/blob/main/8%20Week%20SQL%20Challenge/Images/5.PNG" /
+</p>
+	
 
 ### 1. Data Cleansing Steps
 
