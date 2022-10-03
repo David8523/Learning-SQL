@@ -78,4 +78,13 @@ Exercise Name   | nº of Problems |
 This is a video game where you use SQL queries to find out who was the culprit of the murder. [Click Here](https://github.com/David8523/Learning-SQL/blob/main/The%20SQL%20Murder%20Mystery/walkthrough.md) to see my walkthrough and how I solved this mystery.
 
 ## 5. 8 Week SQL Challenge
-adsad
+
+
+[Case Study #1 - Danny's Diner](https://github.com/David8523/Learning-SQL/blob/main/8%20Week%20SQL%20Challenge/Case%20Study%20%231%20-%20Danny's%20Diner.md)
+[Case Study #2 - Pizza Runner](https://github.com/David8523/Learning-SQL/blob/main/8%20Week%20SQL%20Challenge/Case%20Study%20%232%20-%20Pizza%20Runner.md)
+[Case Study #3 - Foodie-Fi](https://github.com/David8523/Learning-SQL/blob/main/8%20Week%20SQL%20Challenge/Case%20Study%20%233%20-%20Foodie-Fi.md)
+[Case Study #4 - Data Bank](https://github.com/David8523/Learning-SQL/blob/main/8%20Week%20SQL%20Challenge/Case%20Study%20%234%20-%20Data%20Bank.md)
+[Case Study #5 - Data Mart](https://github.com/David8523/Learning-SQL/blob/main/8%20Week%20SQL%20Challenge/Case%20Study%20%235%20-%20Data%20Mart.md)
+[Case Study #6 - Clique Bait](https://github.com/David8523/Learning-SQL/blob/main/8%20Week%20SQL%20Challenge/Case%20Study%20%236%20-%20Clique%20Bait.md)
+[Case Study #7 - Balanced Tree Clothing Co](https://github.com/David8523/Learning-SQL/blob/main/8%20Week%20SQL%20Challenge/Case%20Study%20%237%20-%20Balanced%20Tree%20Clothing%20Co..md)
+
