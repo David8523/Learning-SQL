@@ -1,6 +1,8 @@
 # SQL practice
 This repository contains different homeworks and exercises done on different websites to improve my SQL knowledge.
 
+I will update this repository as I find new resources. As well as my solutions to these
+
  ## Table of Contents
  
 1. [W3schools](#1-w3schools)
