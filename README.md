@@ -2,6 +2,7 @@
 This repository contains different homeworks and exercises done on different websites to improve my SQL knowledge.
 
 I will update this repository as I find new resources. As well as my solutions to these
+asd
 
  ## Table of Contents
  
